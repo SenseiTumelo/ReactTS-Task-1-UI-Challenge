@@ -1,0 +1,12 @@
+#FBF8F1 - white
+#153D3D - For Buttons
+#F7D5E5 - for card
+#F9DDD2 - for main page background
+//===== cards with cans =====//
+#ACD3D8
+#E1C7B0
+#EAE0C7
+#FAF1D2
+#F86D42
+//====== Fonts ======//
+TT - for hero
