@@ -1,4 +1,4 @@
-import React from 'react'
+
 import style from './CanCard.module.css'
 
 export const CanCard = () => {
