@@ -6,7 +6,6 @@ import { Route, Routes } from "react-router-dom"
 //pages
 import { More } from "./pages/More"
 import { SearchStore } from "./pages/SearchStore"
-import { Shop } from "./pages/Shop"
 import { Home } from "./pages/Home"
 
 function App() {

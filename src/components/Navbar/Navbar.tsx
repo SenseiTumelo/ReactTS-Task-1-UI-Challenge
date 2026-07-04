@@ -1,7 +1,7 @@
-import React from 'react'
+
 import style from "./Navbar.module.css"
 import { Link } from "react-router-dom";
-import { Text } from '../Text/Text'
+
 import wlogo from '../../assets/images/logo.png'
 
 export const Navbar = () => {

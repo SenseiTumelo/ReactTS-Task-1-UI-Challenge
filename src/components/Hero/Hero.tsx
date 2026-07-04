@@ -1,4 +1,4 @@
-import React from 'react'
+
 import style from './Hero.module.css'
 import { Text } from '../Text/Text'
 import heroImg from './../../assets/images/Olipop_Strawberry.png'
