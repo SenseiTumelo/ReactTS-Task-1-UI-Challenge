@@ -8,7 +8,7 @@
     align-items: center;
     justify-content: center;
     font-family: "Poppins", sans-serif;
-   
+    background-color: #FBF8F1;
 }
 .nav-content {
     display: flex;
@@ -29,3 +29,19 @@
 .nav-link{
   margin: 0 25px;
 }
+
+.subscribe-btn{
+  width: 125px;  
+  height: 35px;
+  border-radius: 1rem;
+  background-color:#153D3D;
+  color:#FBF8F1 ;
+  border: none;
+}
+
+
+.logo {
+    width: 40px;
+}
+
+
