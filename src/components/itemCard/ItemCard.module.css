@@ -3,4 +3,27 @@
    display: flex;
    align-items: center;
    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card{
+    border-radius: 35px 35px 10px 10px;
+    margin-top: 50px;    
+}
+
+.card img{
+    width: 350px;
+}
+
+.card-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

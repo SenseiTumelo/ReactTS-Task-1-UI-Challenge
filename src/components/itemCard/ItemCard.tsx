@@ -14,10 +14,14 @@ export const ItemCard: React.FC<ItemCardProps> = ({name, price, bgColor, imgSRC}
     return (
 
     <article className={style['item-card']}>
-        <div style={{backgroundColor: bgColor}} >
+        <div className={style['card']} style={{backgroundColor: bgColor}} >
             <img src={imgSRC} alt="item picture" />
-            <Text variant="span">{name}</Text>
-            <Text variant="span">{price}</Text>
+            <div className={style['card-text']}>
+                <Text variant="h2">{name}</Text>
+            </div>
+            <div className={style['price']}>
+                <Text variant="h2">{price}</Text>
+            </div>
         </div>
     </article>
 
