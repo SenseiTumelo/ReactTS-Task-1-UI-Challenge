@@ -1,4 +1,28 @@
-.container {
-    width: 100%;
-    height: 600px;
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 2px;
+
+    margin: 10px 90px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+}
+
+.card-details{
+    padding: 0 25px;
+}
+.card-container img {
+    width: 300px;
+}
+
+.more-btn{
+  width: 150px;  
+  height: 30px;
+  margin-top: 20px;
+  border-radius: 1.6rem;
+  background-color:#153D3D;
+  color:#FBF8F1 ;
+  border: none;
+  
 }
