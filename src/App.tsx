@@ -19,13 +19,14 @@ import rootbeerImg from './assets/images/Olipop_RootBeer.png'
 import strawberryImg from './assets/images/Olipop_Strawberry.png'
 import { useState } from "react"
 
+
 function App() {
 const [itemcard, setItemcard] = useState([
-  {name:"Cola", price:"$4", imgSRC: colaImg, bgColor:"#E1C7B0", id: '1'},
-  {name:"Ginger Lemon", price:"$4", imgSRC: gingerImg, bgColor:"#EAE0C7", id:'2'},
-  {name:"Orange", price:"$4", imgSRC:orangImg, bgColor:"#F86D42", id:3},
-  {name:"Root Beer", price:"$4", imgSRC: rootbeerImg, bgColor:"#ACD3D8", id:'4'},
-  {name:"Strawberry", price:"$4", imgSRC: strawberryImg, bgColor:"", id: '5'}
+  {name:"Cola", price:"$34.99", imgSRC: colaImg, bgColor:"#E1C7B0", btnColor: " " ,id: '1'},
+  {name:"Ginger Lemon", price:"$34.99", imgSRC: gingerImg, bgColor:"#EAE0C7", btnColor: "#ECB119 " ,id:'2'},
+  {name:"Orange", price:"$34.99", imgSRC:orangImg, bgColor:"#F86D42",btnColor: "#E66E17 ", id:3},
+  {name:"Root Beer", price:"$34.99", imgSRC: rootbeerImg, bgColor:"#ACD3D8",btnColor: " ", id:'4'},
+  {name:"Strawberry", price:"$34.99", imgSRC: strawberryImg, bgColor:"", btnColor: " ", id: '5'}
 ]) 
 
 
@@ -46,6 +47,7 @@ const [itemcard, setItemcard] = useState([
             price={item.price}
             imgSRC={item.imgSRC}
             bgColor={item.bgColor}
+            btnColor={item.btnColor}
           />
         })
       }
