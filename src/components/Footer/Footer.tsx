@@ -5,7 +5,7 @@ import { socialIcons, itemcarddata } from './../../data'
 import { useState } from 'react'
 
 export const Footer = () => {
-  const [socialImg, setSocialImg] = useState(socialIcons);
+  const [socialImg] = useState(socialIcons);
   return (
  <footer>
     <div className={style['footer-form']}>
