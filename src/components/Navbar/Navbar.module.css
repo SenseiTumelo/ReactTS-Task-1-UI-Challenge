@@ -1,9 +1,7 @@
 .nav-container {
     position: fixed;
     top: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: fixed;
     font-family: "Poppins", sans-serif;
 }
 .nav-content {
@@ -11,6 +9,7 @@
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
+    padding: 10px;
 }
 
 .nav-links{
@@ -18,11 +17,12 @@
     justify-content: center;
     align-items: center;
     width: 1200px;
-    padding: 5px 25px;
-    margin: 5px 20px;
 }
+
 .nav-link{
   margin: 0 25px;
+  text-decoration: none;
+  color:#153D3D
 }
 
 .subscribe-btn{

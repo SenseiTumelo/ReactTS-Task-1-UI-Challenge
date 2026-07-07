@@ -8,12 +8,14 @@
     font-family: "Poppins", sans-serif;
     border-radius: 10px;
 }
-
 .card-details{
     padding: 0 25px;
 }
 .card-container img {
     width: 300px;
+}
+.card-details h2{
+    font-family: "Instrument Serif", serif;;
 }
 
 .more-btn{

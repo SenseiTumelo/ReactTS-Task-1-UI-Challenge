@@ -18,7 +18,7 @@ import { itemcarddata } from "./data"
 
 
 function App() {
-const [itemcard, setItemcard] = useState(itemcarddata); 
+const [itemcard] = useState(itemcarddata); 
 
 
   return (
@@ -31,6 +31,7 @@ const [itemcard, setItemcard] = useState(itemcarddata);
       </Routes>
       <Hero />
       <CanCard />
+      <div className="main-item-card">
       {
         itemcard && itemcard.length > 0 && itemcard.map((item)=>{
           return <ItemCard key={item.id}
@@ -42,6 +43,8 @@ const [itemcard, setItemcard] = useState(itemcarddata);
           />
         })
       }
+      </div>
+
       <Footer />
     </>
   )
