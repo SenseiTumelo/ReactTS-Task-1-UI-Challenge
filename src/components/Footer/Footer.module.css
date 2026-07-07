@@ -3,11 +3,44 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 5px 20px;
 }
-.footer-form{
+
+
+.form-hearder{
     display: flex;
-    
+}
+
+.form-header h3{
+    width: 50px;
 }
 
 .footer-form img{
     width: 50px;
+    padding-right: 10px;
+
+}
+
+.footer-form button {
+  width: 200px;  
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 1.6rem;
+  background-color:#153D3D;
+  color:#FBF8F1 ;
+  border: none;
+}
+
+.footer-form input {
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 1.2rem; 
+}
+
+.social-logos {
+    display: flex;
+}
+
+.social-logos img{
+    width: 50px;
+    padding: 10px;
 }
