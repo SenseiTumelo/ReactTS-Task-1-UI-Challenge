@@ -17,6 +17,7 @@ import { ItemCard} from "./components/itemCard/ItemCard"
 import { useState } from "react"
 import { itemcarddata } from "./data" 
 import { InfoCard } from "./components/InfoCard/InfoCard"
+import { Subscribe } from "./components/Subscribe/Subscribe"
 
 
 function App() {
@@ -50,7 +51,7 @@ const [itemcard] = useState(itemcarddata);
       }
       </div>
       <InfoCard />
-
+      <Subscribe />
       <Footer />
     </>
   )

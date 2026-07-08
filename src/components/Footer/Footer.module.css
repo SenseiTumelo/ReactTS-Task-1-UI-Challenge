@@ -1,6 +1,6 @@
 footer{
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
     padding: 5px 20px;
     margin: 20px 35px;
 }
@@ -11,18 +11,20 @@ footer{
 }
 
 .form-header h3{
- width: 200px;
+ font-size: 28px;
+ color: #153D3D;
+ width: 350px;
 }
 
 .footer-form img{
-    width: 50px;
+    width: 70px;
+    height: 60px;
     padding-right: 10px;
 
 }
 
 .footer-form button {
-  width: 200px;  
-  height: 30px;
+  height: 40px;
   margin-top: 5px;
   border-radius: 1.6rem;
   background-color:#153D3D;
@@ -31,8 +33,7 @@ footer{
 }
 
 .footer-form input {
-    height: 30px;
-    width: 200px;
+    height: 40px;
     padding: 10px;
     border-radius: 1.2rem; 
 }
@@ -50,6 +51,7 @@ footer{
 .form-input button{
     width: 300px;
     margin-top: 20px;
+    font-size: 18px;
 }
 
 .social-logos {
@@ -68,10 +70,25 @@ footer{
 .footer-flavor ul li{
     list-style: none;
     padding-top: 5px;
+    font-size: 18px;
 }
 
 .footer-flavor a {
     text-decoration: none;
-    color: #153D3D;
-    
+    color: #153D3D; 
+}
+
+.footer-flavor h3{
+    color: #153D3D; 
+    font-size: 32px;
+}
+
+.footer-info h3{
+    font-size: 32px;
+    color: #153D3D; 
+}
+
+.footer-socials h3{
+    font-size: 32px;
+    color: #153D3D; 
 }

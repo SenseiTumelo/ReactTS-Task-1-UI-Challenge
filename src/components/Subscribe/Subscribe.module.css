@@ -1,0 +1,44 @@
+.sub-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15em;
+    margin-bottom: 15em;
+   
+}
+
+.subscribe-details{
+    width: 90em;
+    background-color: #F7D5E5;
+     box-shadow: 5px 10px 10px rgba(0,100,50,0.2 );
+     padding: 35px;
+     border-radius: 10px;
+}
+
+
+
+.subscribe-details h2{
+    font-size: 40px;
+    color: #153D3D;
+    
+}
+
+.subscribe-details p{
+    font-size: 28px;
+    padding: 10px;
+    width: 660px;
+    color: #153D3D;
+    
+}
+
+.subscribe-btn{
+  width: 400px;  
+  height: 60px;
+  margin-top: 20px;
+  border-radius: 2em;
+  background-color:#153D3D;
+  color:#FBF8F1 ;
+  border: none;
+  font-size: 24px;
+  
+}

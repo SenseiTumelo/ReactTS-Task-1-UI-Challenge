@@ -1,5 +1,5 @@
 .item-card{
-   background-color: #FBF8F1;
+
    display: flex;
     padding: 10px;
    
@@ -7,7 +7,8 @@
 
 .card{
     border-radius: 35px 35px 10px 10px;
-    margin-top: 50px;    
+    margin-top: 50px;  
+    
 }
 
 .card img{
@@ -28,7 +29,7 @@
 }
 
 .price button {
-    width: 100px;
+    width: 150px;
     border-radius: 15px;
     border: none;
     padding: 5px;

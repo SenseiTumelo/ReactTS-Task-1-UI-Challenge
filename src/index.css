@@ -11,8 +11,13 @@
 
 /*this is for ItemCard Component*/
 .main-item-card{
-    display: flex;
-    overflow-x: scroll;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 21%;
+    gap: 1rem;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+
     
 }
 

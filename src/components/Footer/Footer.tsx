@@ -1,7 +1,7 @@
 import style from './Footer.module.css'
 import logo from './../../assets/images/logo.png'
 import { Text } from '../Text/Text'
-import { socialIcons, itemcarddata } from './../../data'
+import { socialIcons, itemcarddata, infoLinks } from './../../data'
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 
@@ -36,6 +36,15 @@ export const Footer = () => {
     </div>
     <div className={style['footer-info']}>
         <Text variant='h3'>Information</Text>
+        {
+            infoLinks.map((iLink)=>{
+             return <ul>
+                <li key={iLink.id}>
+                    <Link to={''}>{iLink.name}</Link>
+                </li>
+             </ul>
+            })
+        }
         
     </div>
     <div className={style['footer-socials']}>
@@ -46,8 +55,6 @@ export const Footer = () => {
                 return <img src={x.imgSRC} alt={x.name} key={x.id} />
                }) 
             }
-            
-
         </div>
     </div>
  </footer>

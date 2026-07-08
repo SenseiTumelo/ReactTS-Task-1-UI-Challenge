@@ -18,12 +18,13 @@
 }
 .card-details h2{
     font-size: 40px;
-    
+    color: #153D3D;
 }
 
 .card-details p{
     font-size: 24px;
     padding-top: 10px;
+    color: #153D3D;
     
 }
 
@@ -35,5 +36,6 @@
   background-color:#153D3D;
   color:#FBF8F1 ;
   border: none;
+  font-size: 18px;
   
 }

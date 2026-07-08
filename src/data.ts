@@ -4,6 +4,7 @@ import gingerImg from './assets/images/Olipop_GingerLemon.png'
 import orangImg from './assets/images/Olipop_Orange.png'
 import rootbeerImg from './assets/images/Olipop_RootBeer.png'
 import strawberryImg from './assets/images/Olipop_Strawberry.png'
+
 // Social Media Icons
 import insta from "./assets/icons/instagram.png"
 import fb from "./assets/icons/facebook.png"
@@ -38,4 +39,11 @@ export const navigationLinks =
         { name:"Shop", path:"/shop", id: '2' },
         { name:"Search", path:"/search", id: '3'},
         { name:"More", path:"/more", id: '4'}
+];
+
+export const infoLinks = [
+        { name:"About Us", path:"/", id: '1' },
+        { name:"Contact Us", path:"/", id: '2' },
+        { name:"Terms", path:"/", id: '3'},
+        { name:"Privacy", path:"/", id: '4'}
 ];
