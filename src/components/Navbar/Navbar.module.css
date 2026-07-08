@@ -1,7 +1,6 @@
-.nav-container {
+nav .nav-container {
     position: fixed;
     top: 0;
-    position: fixed;
     font-family: "Poppins", sans-serif;
 }
 .nav-content {
@@ -22,13 +21,14 @@
 .nav-link{
   margin: 0 25px;
   text-decoration: none;
-  color:#153D3D
+  color:#153D3D;
+  font-size: 24px;
 }
 
 .subscribe-btn{
-  width: 125px;  
-  height: 35px;
-  border-radius: 1rem;
+  width: 145px;  
+  height: 45px;
+  border-radius: 1.5rem;
   background-color:#153D3D;
   color:#FBF8F1 ;
   border: none;
@@ -36,7 +36,7 @@
 
 
 .logo {
-    width: 40px;
+    width: 70px;
 }
 
 

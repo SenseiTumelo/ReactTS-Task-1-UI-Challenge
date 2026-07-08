@@ -3,6 +3,7 @@ import logo from './../../assets/images/logo.png'
 import { Text } from '../Text/Text'
 import { socialIcons, itemcarddata } from './../../data'
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   const [socialImg] = useState(socialIcons);
@@ -13,26 +14,29 @@ export const Footer = () => {
         <img src={logo} alt="logo"/> 
         <Text variant='h3' >Stay Connected with OLIPOP</Text>
        </div>
-       <input value={"Email"} />
-       <button>Subscribe</button>
+       <div className={style['form-input']}>
+        <input value={"Email"} />
+        <button>Subscribe</button>
+       </div>
+
     </div>
     <div className={style['footer-flavor']}>
         <Text variant='h3'>Flavours</Text>
-
-    </div>
-    <div className={style['footer-info']}>
-        <Text variant='h3'>Information</Text>
         {
             itemcarddata.map((list)=>{
                 return <ul>
                     <li key={list.id}>
-                        <a href="">
+                        <Link to={''}>
                             {list.name}
-                        </a>
+                        </Link> 
                     </li>
                 </ul>
             }) 
         }
+    </div>
+    <div className={style['footer-info']}>
+        <Text variant='h3'>Information</Text>
+        
     </div>
     <div className={style['footer-socials']}>
         <Text variant='h3'>Social Media</Text>

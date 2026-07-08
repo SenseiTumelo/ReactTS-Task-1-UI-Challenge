@@ -1,16 +1,17 @@
 footer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
     padding: 5px 20px;
+    margin: 20px 35px;
 }
 
 
-.form-hearder{
+.form-header{
     display: flex;
 }
 
 .form-header h3{
-    width: 50px;
+ width: 200px;
 }
 
 .footer-form img{
@@ -36,6 +37,21 @@ footer{
     border-radius: 1.2rem; 
 }
 
+.form-input{
+    display: block;
+    width: 100px;
+    padding-top: 20px;
+}
+
+.form-input input{
+   width: 300px; 
+}
+
+.form-input button{
+    width: 300px;
+    margin-top: 20px;
+}
+
 .social-logos {
     display: flex;
 }
@@ -43,4 +59,19 @@ footer{
 .social-logos img{
     width: 50px;
     padding: 10px;
+}
+
+.footer-flavor {
+    padding-left: 20px;
+}
+
+.footer-flavor ul li{
+    list-style: none;
+    padding-top: 5px;
+}
+
+.footer-flavor a {
+    text-decoration: none;
+    color: #153D3D;
+    
 }

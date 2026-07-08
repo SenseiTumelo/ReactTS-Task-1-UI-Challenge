@@ -8,7 +8,16 @@
     margin: 0;
     
 }
+
+/*this is for ItemCard Component*/
 .main-item-card{
     display: flex;
     overflow-x: scroll;
+    
+}
+
+.main-card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
