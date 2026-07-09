@@ -2,17 +2,20 @@
 
    display: flex;
     padding: 10px;
+    
    
 }
 
 .card{
     border-radius: 35px 35px 10px 10px;
-    margin-top: 50px;  
+    margin-top: 50px; 
+     
     
 }
 
 .card img{
-    width: 350px;
+    width: 600px;
+    height: auto;
 }
 
 .card-text{
@@ -21,16 +24,23 @@
     justify-content: center;
 }
 
+.card-text{
+    font-size: 50px;
+}
+
 .price{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding-bottom: 50px;
+    padding-top: 10px;
 }
 
 .price button {
-    width: 150px;
-    border-radius: 15px;
+    width: 120px;
+    border-radius: 25px;
     border: none;
-    padding: 5px;
+    padding: 10px;
+    font-size: 28px;
+
 }

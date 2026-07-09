@@ -39,8 +39,8 @@ export const Footer = () => {
         {
             infoLinks.map((iLink)=>{
              return <ul>
-                <li key={iLink.id}>
-                    <Link to={''}>{iLink.name}</Link>
+                <li key={iLink.id} className={style['info-link']}>
+                    <Link to={''} className={style['i-link']}>{iLink.name}</Link>
                 </li>
              </ul>
             })
