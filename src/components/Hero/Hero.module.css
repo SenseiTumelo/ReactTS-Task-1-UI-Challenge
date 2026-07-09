@@ -1,38 +1,39 @@
 .container {
     width:100%;
-    height: 760px;
+    height: 860px;
     background-color: #F7D5E5;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .shop-btn{
-  width: 270px;  
-  height: 65px;
+  width: 250px;  
+  height: 55px;
   border-radius: 1.6rem;
   background-color:#153D3D;
   color:#FBF8F1 ;
   border: none;
   font-size: 28px;
+  margin-top: 50px;
+
 }
 
 .hero-details h1 {
-    font-family: "Instrument Serif", serif;
-    font-weight: 700;
-    font-size: 118px;
+    width: 700px;
+    font-size: 150px;
     color: #153D3D;
+  
     
 }
 
 .hero-card {
- width: 700px;
- height: 700px;
+ width: 800px;
+ height: 800px;
  background-color: #F86D42;
  border-radius: 50%;
   display: flex;
   align-items: center;
-  justify-content: center;
  
 }
 

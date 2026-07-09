@@ -7,8 +7,7 @@ export const Hero = () => {
   return (
     <div className={style.container}>
       <div className={style['hero-details']}>
-        <Text variant='h1'>A New Kind of</Text>
-        <Text variant='h1'>Soda</Text>
+        <Text variant='h1'>A New Kind of Soda</Text>
         <button className={style['shop-btn']}>Shop Olipop</button>
       </div>
       <div className={style['hero-card']}>

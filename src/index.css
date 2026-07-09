@@ -2,11 +2,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap');
+
+
+/* defining a local font Windsor from http://www.cufonfonts.com */
+    @font-face {
+    font-family: 'WindsorEF-UltraHeavy';
+    font-style: normal;
+    font-weight: normal;
+    src: local('WindsorEF-UltraHeavy'), url('/src/assets/fonts/windsoref/windsoref-extraboldcondensed.woff') format('woff');
+    }
+
+    @font-face {
+    font-family: 'WindsorEF-ExtraBoldCondensed';
+    font-style: normal;
+    font-weight: normal;
+    src: local('WindsorEF-ExtraBoldCondensed'), url('/src/assets/fonts/windsoref/windsoref-extraboldcondensed.woff') format('woff');
+    }
+
+
+/* defining a local font Ano Regular from http://www.freefonts.co */
+    @font-face {
+        font-family: 'Ano-regular';
+        font-style: normal;
+        font-weight: normal;
+        src: local('Ano-Regular'),url('assets/fonts/Ano-Regular/Ano-Regular.otf');
+    }
+
+
+
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     
+}
+p{
+    font-family: 'Ano-Regular';
+    line-height: 1.5;
+}
+
+button {
+    font-family: 'Ano-Regular';
+}
+h1,h2,h3{
+        font-family: 'WindsorEF-ExtraBoldCondensed', Arial, sans-serif;
 }
 
 /*this is for ItemCard Component*/

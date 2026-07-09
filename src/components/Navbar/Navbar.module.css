@@ -1,14 +1,14 @@
 nav .nav-container {
     position: fixed;
     top: 0;
-    font-family: "Poppins", sans-serif;
+
 }
 .nav-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Poppins", sans-serif;
     padding: 10px;
+
 }
 
 .nav-links{
@@ -16,6 +16,7 @@ nav .nav-container {
     justify-content: center;
     align-items: center;
     width: 1200px;
+    font-family: 'Ano-Regular';
 }
 
 .nav-link{
@@ -32,6 +33,7 @@ nav .nav-container {
   background-color:#153D3D;
   color:#FBF8F1 ;
   border: none;
+  font-family: 'Ano-Regular';
 }
 
 

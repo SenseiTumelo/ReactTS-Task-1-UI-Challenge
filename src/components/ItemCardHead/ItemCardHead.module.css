@@ -4,6 +4,7 @@
 }
 
 .header-item-card h2{
+    font-family: 'WindsorEF-ExtraBoldCondensed', Arial, sans-serif;
     font-size: 120px;
     display: flex;
     align-items: center;
@@ -17,4 +18,5 @@
     justify-content: center;
     font-size: 36px;
     color: #153D3D;
+    
 }
