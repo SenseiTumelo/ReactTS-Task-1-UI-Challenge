@@ -46,6 +46,7 @@ button {
 }
 h1,h2,h3{
         font-family: 'WindsorEF-ExtraBoldCondensed', Arial, sans-serif;
+        color: #153D3D;
 }
 
 /*this is for ItemCard Component*/
