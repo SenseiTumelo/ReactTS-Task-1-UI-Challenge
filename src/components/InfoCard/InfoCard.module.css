@@ -15,7 +15,7 @@
 }
 
 .info-content img{
-    width: 80px;
+    width: 70%;
 }
 
 .info-content span {
@@ -28,9 +28,6 @@
     justify-content: center;
 }
 
-.col-one{
-    
-}
 
 .col-one .info-content p{
     padding-left: 20px;

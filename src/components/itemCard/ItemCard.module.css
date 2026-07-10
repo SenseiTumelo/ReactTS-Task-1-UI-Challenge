@@ -1,20 +1,18 @@
 .item-card{
-
    display: flex;
     padding: 10px;
+    width: 25em;
+    height: 42em;
     
-   
 }
 
 .card{
     border-radius: 35px 35px 10px 10px;
-    margin-top: 50px; 
-     
-    
+    margin-top: 50px;     
 }
 
 .card img{
-    width: 600px;
+    width: 100%;
     height: auto;
 }
 
@@ -22,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .card-text{

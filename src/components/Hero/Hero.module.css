@@ -22,14 +22,12 @@
 .hero-details h1 {
     width: 700px;
     font-size: 150px;
-    color: #153D3D;
-  
-    
+    color: #153D3D;    
 }
 
 .hero-card {
- width: 800px;
- height: 800px;
+ width: 25%;
+ height: auto;
  background-color: #F86D42;
  border-radius: 50%;
   display: flex;
@@ -39,9 +37,18 @@
 
 .hero-img {
   transform: rotate(10deg);
-  width: 1000px;
+  width: 100%;
+  height: auto;
 
 }
 .hero-details {
   padding-left: 20px;
+ 
 }
+
+/*Media queries for Tablet*/
+
+
+
+/*Media queries for Smartphone/mobile device*/
+

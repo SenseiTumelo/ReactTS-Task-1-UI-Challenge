@@ -1,6 +1,5 @@
 nav .nav-container {
     position: fixed;
-    top: 0;
 
 }
 .nav-content {
@@ -8,6 +7,11 @@ nav .nav-container {
     justify-content: center;
     align-items: center;
     padding: 10px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: #FBF8F1;
+    z-index: 99999999;
 
 }
 
