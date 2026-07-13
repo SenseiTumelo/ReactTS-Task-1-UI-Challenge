@@ -13,12 +13,10 @@
 
 .card img{
     width: 100%;
-    height: auto;
+
 }
 
-.card img :hover{
-    transform: rotateX(45deg);
-}
+
 
 .card-text{
     display: flex;

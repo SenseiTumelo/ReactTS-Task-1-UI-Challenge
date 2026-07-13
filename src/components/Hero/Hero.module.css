@@ -1,34 +1,38 @@
+
+
+.container{
+  background-color: #F7D5E5;
+}
+
+
 /*media queries for desktop*/
 
-
-@media (max-width: 600px) {
+@media screen and (min-width: 0px) and (max-width: 600px) {
    
  .container{
   background-color: #153D3D;
   height: 1000px;
-  flex-direction: column;
+  display: block;
  }
 }
 
-@media screen and (min-width: 768px) {
-  body {
+@media screen and (min-width: 768px) and (max-width: 992px){
     .container{
-      display: flex;
-      background-color: #F86D42;
+      display: flex;  
     }
-  }
+
+
 }
 
 /* For devices with a minimum width of 992px (Large) */
 @media screen and (min-width: 992px) {
-  body {
      .container {
-        width:100%;
+        width:100vw;
         height: 860px;
-        background-color: #F7D5E5;
         display: flex;
         justify-content: center;
         align-items: center;
+        
     }
 
     .shop-btn{
@@ -50,10 +54,10 @@
     }
 
     .hero-card {
-    width: 40rem;
-    height: auto;
-    background-color: #F86D42;
-    border-radius: 50%;
+      width: 40rem;
+      height: auto;
+      background-color: #F86D42;
+      border-radius: 50%;
       display: flex;
       align-items: center;
     
@@ -69,5 +73,5 @@
       padding-left: 20px;
     
     }
-  }
+  
 }

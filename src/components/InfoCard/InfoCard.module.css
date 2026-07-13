@@ -3,8 +3,9 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: #FAF1D2;
-    margin-top: 10em;
-    height: 30em;
+    margin-top: 10rem;
+    height: 30rem;
+    overflow: scroll;
 }
 
 .info-content{
@@ -16,6 +17,7 @@
 
 .info-content img{
     width: 70%;
+    
 }
 
 .info-content span {
