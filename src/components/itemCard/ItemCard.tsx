@@ -44,6 +44,7 @@ export const ItemCard: React.FC<ItemCardProps> = ({name, price, bgColor, imgSRC,
             </div>
             <div className={style["price"]}>
                 <button style={{backgroundColor: btnColor}}>{price}</button>
+
             </div>
           </div>
         

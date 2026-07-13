@@ -16,6 +16,10 @@
     height: auto;
 }
 
+.card img :hover{
+    transform: rotateX(45deg);
+}
+
 .card-text{
     display: flex;
     align-items: center;

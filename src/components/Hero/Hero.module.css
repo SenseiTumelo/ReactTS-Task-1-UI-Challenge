@@ -1,54 +1,73 @@
-.container {
-    width:100%;
-    height: 860px;
-    background-color: #F7D5E5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/*media queries for desktop*/
+
+
+@media (max-width: 600px) {
+   
+ .container{
+  background-color: #153D3D;
+  height: 1000px;
+  flex-direction: column;
+ }
 }
 
-.shop-btn{
-  width: 250px;  
-  height: 55px;
-  border-radius: 1.6rem;
-  background-color:#153D3D;
-  color:#FBF8F1 ;
-  border: none;
-  font-size: 28px;
-  margin-top: 50px;
-
+@media screen and (min-width: 768px) {
+  body {
+    .container{
+      display: flex;
+      background-color: #F86D42;
+    }
+  }
 }
 
-.hero-details h1 {
-    width: 700px;
-    font-size: 150px;
-    color: #153D3D;    
+/* For devices with a minimum width of 992px (Large) */
+@media screen and (min-width: 992px) {
+  body {
+     .container {
+        width:100%;
+        height: 860px;
+        background-color: #F7D5E5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shop-btn{
+      width: 250px;  
+      height: 55px;
+      border-radius: 1.6rem;
+      background-color:#153D3D;
+      color:#FBF8F1 ;
+      border: none;
+      font-size: 28px;
+      margin-top: 50px;
+
+    }
+
+    .hero-details h1 {
+        width: 700px;
+        font-size: 10rem;
+        color: #153D3D;    
+    }
+
+    .hero-card {
+    width: 40rem;
+    height: auto;
+    background-color: #F86D42;
+    border-radius: 50%;
+      display: flex;
+      align-items: center;
+    
+    }
+
+    .hero-img {
+      transform: rotate(10deg);
+      width: 100%;
+      height: auto;
+
+    }
+    .hero-details {
+      padding-left: 20px;
+    
+    }
+  }
 }
-
-.hero-card {
- width: 25%;
- height: auto;
- background-color: #F86D42;
- border-radius: 50%;
-  display: flex;
-  align-items: center;
- 
-}
-
-.hero-img {
-  transform: rotate(10deg);
-  width: 100%;
-  height: auto;
-
-}
-.hero-details {
-  padding-left: 20px;
- 
-}
-
-/*Media queries for Tablet*/
-
-
-
-/*Media queries for Smartphone/mobile device*/
-
