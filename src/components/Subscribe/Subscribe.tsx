@@ -2,10 +2,7 @@ import { Text } from "../Text/Text"
 import style from './Subscribe.module.css'
 
 export const Subscribe = () => {
-  function showModal(){
-    let modal = document.getElementById("modal");
-    
-  }
+
 
   return (
     <div className={style['sub-card-container']}>
@@ -14,7 +11,7 @@ export const Subscribe = () => {
             <Text variant={'p'}> Never run out of your favorite flavors when you join our fam.
                 Subcribe and save on every order - your wallet (and digestion) will thank you.
             </Text>
-            <button className={style['subscribe-btn']} onClick={()=>{showModal()}}>Subcribe & Save</button>
+            <button className={style['subscribe-btn']} >Subcribe & Save</button>
             <div id="modal">
               <Text variant="h1">Subscribe to our Newsletter</Text>
               <button>Click me</button>
