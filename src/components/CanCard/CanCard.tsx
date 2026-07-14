@@ -2,6 +2,7 @@
 import style from './CanCard.module.css'
 import { Text } from '../Text/Text'
 import cardImg from '../../assets/images/olipop_card.jpg'
+import { Button } from '../Button/Button'
 
 export const CanCard = () => {
   return (
@@ -14,7 +15,7 @@ export const CanCard = () => {
               a thoughtfully crafted ionic tht found its tast in wholesome, hardworking ingrediaents instead of 
               spoondulus of sugar
             </Text>
-            <button className={style['more-btn']}>Read more</button>
+            <Button text="Read More" style={{width: '200px',height:'50px', fontSize:"18px"}} />
         </div>
       </div>
   )

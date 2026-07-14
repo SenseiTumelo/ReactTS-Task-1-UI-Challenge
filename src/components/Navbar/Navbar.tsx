@@ -3,6 +3,7 @@ import style from "./Navbar.module.css"
 import { Link } from "react-router-dom";
 import wlogo from '../../assets/images/logo.png'
 import { navigationLinks } from "../../data";
+import { Button } from "../Button/Button";
 
 export const Navbar = () => {
 
@@ -19,7 +20,7 @@ export const Navbar = () => {
               }
           </ul>
           <div >
-            <button className={style['subscribe-btn']}>Subscribe</button>
+            <Button style={{width: '145px', height: '45px'}} text="Subscribe"/>
           </div>
       </div>
       </nav>
