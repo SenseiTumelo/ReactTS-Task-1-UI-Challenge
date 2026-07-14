@@ -4,6 +4,7 @@ import gingerImg from './assets/images/Olipop_GingerLemon.png'
 import orangImg from './assets/images/Olipop_Orange.png'
 import rootbeerImg from './assets/images/Olipop_RootBeer.png'
 import strawberryImg from './assets/images/Olipop_Strawberry.png'
+import cherryImg from './assets/images/Olipop_Cherry.png'
 
 // Social Media Icons
 import insta from "./assets/icons/instagram.png"
@@ -20,7 +21,7 @@ export const itemcarddata =
         {name:"Orange", price:"$34.99", imgSRC: orangImg, bgColor:"#F86D42",btnColor:" ", id:3},
         {name:"Root Beer", price:"$34.99", imgSRC: rootbeerImg, bgColor:"#ACD3D8",btnColor:"#FB354C ", id:'4'},
         {name:"Strawberry Vanilla", price:"$34.99", imgSRC: strawberryImg, bgColor:"", btnColor:" ",id: '5'},
-        {name:"Doctor Goodwin", price:"$34.99", imgSRC: strawberryImg, bgColor:"", btnColor:" ",id: '6'},
+        {name:"Cherry Vanilla", price:"$34.99", imgSRC: cherryImg, bgColor:"", btnColor:" ",id: '6'},
 
 ];
 
