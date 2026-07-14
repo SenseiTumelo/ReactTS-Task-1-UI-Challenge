@@ -50,8 +50,8 @@ h1,h2,h3{
 .main-item-card{
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 20%;
-    gap: 80px;
+    grid-auto-columns: 33%;
+    gap: 1.5rem;
     overflow-x: auto;
     overscroll-behavior-inline: contain;
 }
@@ -60,4 +60,11 @@ h1,h2,h3{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+@media screen and (max-width: 800px){
+      .main-item-card{
+            grid-auto-columns: 70%;
+            gap: 1rem;
+      }
 }

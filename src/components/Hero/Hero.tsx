@@ -11,9 +11,7 @@ export const Hero = () => {
         <button className={style['shop-btn']}>Shop Olipop</button>
       </div>
       <div className={style['hero-card']}>
-  
           <img src={heroImg} alt=""  className={style['hero-img']}/>
-        
       </div>
     </div>
   )

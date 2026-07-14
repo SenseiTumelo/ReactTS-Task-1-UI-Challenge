@@ -1,3 +1,4 @@
+
 .card-container{
     display: flex;
     align-items: center;
@@ -12,8 +13,8 @@
     padding: 0px 100px;
 }
 .card-container img {
-    width: 500px;
-    height: 500px;
+    width: 30rem;
+    height: auto;
     padding-left: 10px;
 }
 .card-details h2{
@@ -39,3 +40,17 @@
   font-size: 18px;
   
 }
+
+
+@media screen and (max-width: 800px) {
+    .card-container{
+        display: block;
+    }
+    .card-container img { 
+       padding: 0 3em;
+       margin-left: 3em;
+    }   
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){}
+@media screen and (min-width: 992px) {}
