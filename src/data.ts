@@ -36,10 +36,10 @@ export const socialIcons = [
 
 export const navigationLinks = 
     [
-        { name:"Home", path:"/home", id: '1' },
-        { name:"Shop", path:"/shop", id: '2' },
-        { name:"Search", path:"/search", id: '3'},
-        { name:"More", path:"/more", id: '4'}
+        { name:"H", path:"/home", id: '1' },
+        { name:"Shop Online", path:"/shop", id: '2' },
+        { name:"Find in Store", path:"/search", id: '3'},
+        { name:"Learn More", path:"/more", id: '4'}
 ];
 
 export const infoLinks = [
