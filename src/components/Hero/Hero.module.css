@@ -2,13 +2,14 @@
 .container {
         background-color: #F7D5E5;
         width:100vw;
-        height: 860px;
+        height: 100vh;
         display: flex;
         justify-content: space-evenly;
-        align-items: center;
-        
+        align-items: center;       
 }
-
+.trademark{
+ font-size: 5rem;
+}
 .shop-btn{
       width: 250px;  
       height: 55px;
@@ -21,40 +22,44 @@
 }
 
 .hero-details h1 {
-        width: 100%;
         font-size: 10rem;
         color: #153D3D;    
 }
 
 .hero-card {
-      width: 40rem;
-      height: auto;
+      width: 45rem;
       background-color: #F86D42;
       border-radius: 50%;
-      display: flex;
-      align-items: center;
+      margin-right: 15rem;
+      margin-top: 5rem;
     }
 
     .hero-img {
       transform: rotate(10deg);
       width: 100%;
-      height: auto;
       filter: drop-shadow( 0px 10px 10px rgba(0,0,0,0.5));
-
     }
     .hero-details {
       padding-left: 20px;
-    
+      margin-left: 15rem;
     }
+@media screen and (max-width:1447px){
   
-@media screen and (max-width: 992px) {
-
+}
+@media screen and (max-width: 1220px) {
+  .hero-details h1 {
+    font-size: 7rem;
+  }
+  .hero-img {
+    width: 13rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .container{
-    display: block;
+   
   }
-    
+  .hero-card {
+  }    
 }
 

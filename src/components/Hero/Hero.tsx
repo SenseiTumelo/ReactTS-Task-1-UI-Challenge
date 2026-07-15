@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <div className={style.container}>
       <div className={style['hero-details']}>
-        <Text variant='h1'>A New Kind <br/>of Soda</Text>
+        <Text variant='h1'>A New Kind <br/>of Soda <span className={style.trademark}>&#8482;</span></Text>
         <Button text="Shop Olipop" style={{height:"55px", width:"250px", fontSize:"28px"}}/>
       </div>
       <div className={style['hero-card']}>

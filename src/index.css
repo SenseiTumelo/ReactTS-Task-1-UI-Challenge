@@ -50,7 +50,6 @@ h1,h2,h3{
 .main-item-card{
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
 }
 
 .main-card-container{
@@ -61,7 +60,7 @@ h1,h2,h3{
 
 html,body{
     width: 100%;
-    overflow-x: auto;
+   
 }
 @media screen and (max-width: 1054px){
       .main-item-card{

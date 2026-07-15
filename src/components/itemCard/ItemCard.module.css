@@ -1,8 +1,7 @@
 .item-card{
     display: flex;
-    justify-content: space-evenly;
-    flex: 20%;
-    padding: 10px; 
+    justify-content: center;
+    flex: 25%;
 }
 
 .card{
@@ -10,20 +9,14 @@
     margin-top: 50px;   
     height: 450px;
     width: 300px;  
-  
 }
 
-.card:hover{
-    height:460px;
-    width: 310px;
-}
 
 .card img{
     filter: drop-shadow( 0px 10px 10px rgba(0,0,0,0.5));
     padding-left: 0;
     box-sizing: border-box;
     width: 19em;
-
 }
 
 .card-text{
@@ -40,8 +33,8 @@
 }
 
 .price button {
-    width: 120px;
-    border-radius: 25px;
+    width: 8rem;
+    border-radius: 1.6rem;
     border: none;
     padding: 10px;
     font-size: 1.5em;
