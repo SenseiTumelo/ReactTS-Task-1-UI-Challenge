@@ -6,3 +6,8 @@
     border: none;
     font-family: 'Ano-Regular';
 }
+
+.button:hover{
+    background-color: #fff;
+    color: #153D3D;
+}

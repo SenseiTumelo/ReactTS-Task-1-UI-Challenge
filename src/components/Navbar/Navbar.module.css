@@ -34,4 +34,10 @@ nav .nav-container {
     width: 4.4rem;
 }
 
+@media screen and (max-width: 992px){
+    .nav-link{
+        display: none;
+        
+    }
+}
 

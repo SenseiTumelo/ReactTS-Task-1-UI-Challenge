@@ -12,7 +12,9 @@ export const Navbar = () => {
 
     <nav className="nav-container" >
         <div className={style["nav-content"]}>
-          <img src={wlogo} alt="" className={style.logo} />
+          <Link to={navigationLinks[0].path}>
+            <img src={wlogo} alt="" className={style.logo} />  
+          </Link>
           <ul className={style['nav-links']}>
               {
                 navigationLinks.map((link)=>{

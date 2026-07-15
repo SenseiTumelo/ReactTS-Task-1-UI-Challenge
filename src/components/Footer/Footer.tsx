@@ -12,7 +12,7 @@ export const Footer = () => {
     <div className={style['footer-form']}>
        <div className={style['form-header']}>
         <img src={logo} alt="logo"/> 
-        <Text variant='h3' >Stay Connected with OLIPOP</Text>
+        <Text variant='h3' >Stay Connected with <br/>OLIPOP</Text>
        </div>
        <div className={style['form-input']}>
         <input value={"Email"} />

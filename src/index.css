@@ -48,12 +48,9 @@ h1,h2,h3{
 
 /*this is for ItemCard Component*/
 .main-item-card{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 22%;
+    display: flex;
+    flex-wrap: wrap;
     gap: 1em;
-    overflow-x: auto;
-    overscroll-behavior-inline: contain;
 }
 
 .main-card-container{
@@ -66,9 +63,9 @@ html,body{
     width: 100%;
     overflow-x: auto;
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1054px){
       .main-item-card{
             grid-auto-columns: 70%;
-            gap: 1rem;
       }
+
 }
