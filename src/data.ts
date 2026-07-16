@@ -20,8 +20,7 @@ export const itemcarddata =
         {name:"Ginger Lemon", price:"$34.99", imgSRC: gingerImg, bgColor:"#EAE0C7",btnColor:"",id:'2'},
         {name:"Orange", price:"$34.99", imgSRC: orangImg, bgColor:"#F86D42",btnColor:" ", id:3},
         {name:"Root Beer", price:"$34.99", imgSRC: rootbeerImg, bgColor:"#ACD3D8",btnColor:"#FB354C ", id:'4'},
-        {name:"Strawberry Vanilla", price:"$34.99", imgSRC: strawberryImg, bgColor:"", btnColor:" ",id: '5'},
-        {name:"Cherry Vanilla", price:"$34.99", imgSRC: cherryImg, bgColor:"", btnColor:" ",id: '6'},
+       
 
 ];
 

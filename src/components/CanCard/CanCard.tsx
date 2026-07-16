@@ -11,7 +11,6 @@ export const CanCard = () => {
         <div className={style["card-details"]}>
           <Text variant={"h2"}>| Our foundational Ingredient</Text>
           <Text variant={"p"}>
-            {" "}
             For over a decate, Ben and David have shared a vision of a
             healthier, ... future. Their quest for a product that could
             undermine the old guard of soda ba..moths led them to OLIPOP, a

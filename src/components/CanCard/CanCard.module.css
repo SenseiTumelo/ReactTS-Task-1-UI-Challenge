@@ -57,11 +57,9 @@
  
     .card-content{
       grid-template-columns: 1fr;
+      width: 50rem;
     }
     .card-content img {
-        align-self: center;
-    }
-    .card-details {
-     text-align: center;    
+        place-items: center;
     }
 }

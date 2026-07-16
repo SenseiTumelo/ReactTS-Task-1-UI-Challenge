@@ -21,3 +21,15 @@
     color: #153D3D;
     
 }
+
+@media screen and (max-width: 768px) {
+    .header-item-card {
+        text-align: center;
+    }
+    .header-item-card h2{
+    font-size: 100px;
+    }
+    .header-item-card p {
+        font-size: 20px;
+    }
+}
