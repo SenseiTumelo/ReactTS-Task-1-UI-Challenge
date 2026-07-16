@@ -10,24 +10,14 @@
 .trademark{
  font-size: 5rem;
 }
-.shop-btn{
-      width: 250px;  
-      height: 55px;
-      border-radius: 1.6rem;
-      background-color:#153D3D;
-      color:#FBF8F1 ;
-      border: none;
-      font-size: 28px;
-      margin-top: 50px;
-}
 
 .hero-details h1 {
-        font-size: 10rem;
+        font-size: 8.5vw;
         color: #153D3D;    
 }
 
 .hero-card {
-      width: 45rem;
+      width: 30%;
       background-color: #F86D42;
       border-radius: 50%;
       margin-right: 15rem;
@@ -39,27 +29,46 @@
       width: 100%;
       filter: drop-shadow( 0px 10px 10px rgba(0,0,0,0.5));
     }
+
     .hero-details {
       padding-left: 20px;
       margin-left: 15rem;
     }
-@media screen and (max-width:1447px){
-  
+@media screen and (max-width:1440px){
+
+  .hero-card {
+      width: 25%;
+      background-color: #F86D42;
+      border-radius: 50%;
+      margin-right: 15rem;
+      margin-top: 5rem;
+    }
+    .trademark{
+    font-size: 2rem;
+  }
 }
-@media screen and (max-width: 1220px) {
-  .hero-details h1 {
-    font-size: 7rem;
-  }
-  .hero-img {
-    width: 13rem;
-  }
+@media screen and (max-width: 1024px) {
+    .container{
+      flex-direction: column-reverse;
+    }   
+    .hero-details {
+      padding-left: 0px;
+      margin-left: 0;
+      text-align: center;
+    }
+    .hero-card {
+      margin-right: 0;
+      width: 20rem;
+    }
+    .hero-details h1 {
+        font-size: 5em; 
+}
+
 }
 
 @media screen and (max-width: 600px) {
-  .container{
-   
-  }
-  .hero-card {
-  }    
+        .container {
+        flex-direction: column-reverse; 
+      } 
 }
 

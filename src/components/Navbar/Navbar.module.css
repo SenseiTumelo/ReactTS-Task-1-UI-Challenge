@@ -1,17 +1,13 @@
-nav .nav-container {
-    position: fixed;
-
-}
 .nav-content {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0.6rem;
-    position: fixed;
     top:0;
     width: 100%;
     background-color: #FBF8F1;
     z-index: 99999999;
+    position: fixed;
 
 }
 
@@ -21,13 +17,14 @@ nav .nav-container {
     align-items: center;
     width: 75rem;
     font-family: 'Ano-Regular';
+    flex-wrap: wrap;
 }
 
 .nav-link{
   margin: 0 1.5rem;
   text-decoration: none;
   color:#153D3D;
-  font-size: 1.5rem;
+  font-size: 1.5vw;
 }
 
 .logo {

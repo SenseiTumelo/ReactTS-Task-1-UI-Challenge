@@ -5,6 +5,8 @@
     color:#FBF8F1 ;
     border: none;
     font-family: 'Ano-Regular';
+    font-size: 1.2vw;
+    padding: 0.6rem 1.2rem;
 }
 
 .button:hover{
