@@ -16,9 +16,9 @@ import pinterest from "./assets/icons/pinterest.png"
 
 export const itemcarddata = 
     [
-        {name:"Cola", price:"$34.99", imgSRC: colaImg, bgColor:"#E1C7B0", btnColor:" ", id: '1'},
-        {name:"Ginger Lemon", price:"$34.99", imgSRC: gingerImg, bgColor:"#EAE0C7",btnColor:"",id:'2'},
-        {name:"Orange", price:"$34.99", imgSRC: orangImg, bgColor:"#F86D42",btnColor:" ", id:3},
+        {name:"Cola", price:"$34.99", imgSRC: colaImg, bgColor:"#E1C7B0", btnColor:" #997351", id: '1'},
+        {name:"Ginger Lemon", price:"$34.99", imgSRC: gingerImg, bgColor:"#EAE0C7",btnColor:"#d6be82",id:'2'},
+        {name:"Orange", price:"$34.99", imgSRC: orangImg, bgColor:"#F86D42",btnColor:"#f8b478 ", id:3},
         {name:"Root Beer", price:"$34.99", imgSRC: rootbeerImg, bgColor:"#ACD3D8",btnColor:"#FB354C ", id:'4'},
        
 
