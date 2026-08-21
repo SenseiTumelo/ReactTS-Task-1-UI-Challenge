@@ -8,6 +8,11 @@ The objective of this task is to demonstrate an understanding of **React TypeScr
 
 The selected UI design has been recreated from scratch using **React TypeScript and plain CSS**, with emphasis on visual accuracy, usability, responsiveness, and maintainable code.
 
+
+## The Project UI
+![Alt text](/public/User%20interfaces/UI-Challenge8.jpg)
+
+
 ## 🎯 Objective
 
 The main objective of this task is to assess the ability to:
