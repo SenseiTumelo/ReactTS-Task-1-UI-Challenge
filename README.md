@@ -26,6 +26,15 @@ After cloning the project, run:
          
 inside your terminal.
 
+
+
+
+
+![Alt text](/public/User%20interfaces/UI-Challenge8.jpg "Project User Interface")
+
+
+
+
 -------------------------------------------------------------------------------------------------
 #                                   React + TypeScript + Vite
 -------------------------------------------------------------------------------------------------
