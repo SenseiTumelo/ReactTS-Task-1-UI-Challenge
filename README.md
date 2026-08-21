@@ -1,5 +1,32 @@
-# React + TypeScript + Vite
+  ----------------------------------------------------------------------------------------------
+#                               PROJECT OBJECTIVES
+  ----------------------------------------------------------------------------------------------
+The objective of this task is to assess MY understanding of ReactTS concepts and my
+ability to design and implement user interfaces (UI) using ReactTS components. In this
+challenge, I will be creating my own UI component from scratch, demonstrating my
+knowledge of React best practices, component structure, and reusability.
+This is the official first task of the curriculum, based on React Lesson 2, focusing mainly on
+design implementation, styling and screen responsE
 
+  -----------------------------------------------------------------------------------------------
+#                               PROJECT INSTALLATION & SETUP
+  -----------------------------------------------------------------------------------------------
+
+
+
+After cloning the project, 
+      run: 
+#           npm install 
+
+to install all the project dependencies.
+
+      To run the project:
+#            npm run dev
+      inside your terminal.
+
+-------------------------------------------------------------------------------------------------
+#                                   React + TypeScript + Vite
+-------------------------------------------------------------------------------------------------
 This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
 Currently, two official plugins are available:
