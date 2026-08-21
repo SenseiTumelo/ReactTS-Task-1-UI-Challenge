@@ -182,11 +182,11 @@ The completed application is intended to be hosted using a web hosting platform 
 
 ### Live Demo
 
-**Live Application:** `<add-your-live-demo-url-here>`
+**Live Application:** `https://react-ts-task-1-ui-challenge-theta.vercel.app/`
 
 ### Repository
 
-**GitHub Repository:** `<add-your-github-repository-url-here>`
+**GitHub Repository:** `https://github.com/SenseiTumelo/ReactTS-Task-1-UI-Challenge.git`
 
 ## 🧪 Testing
 
