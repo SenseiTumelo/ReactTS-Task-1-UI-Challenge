@@ -16,15 +16,15 @@ Clone the project to your desired directories:
   
       git clone https://github.com/SenseiTumelo/ReactTS-Task-1-UI-Challenge.git      
 
-After cloning the project, 
-      run: 
-#           npm install 
+After cloning the project, run:
+            
+            npm install 
 
-to install all the project dependencies.
+ To run the project:
 
-      To run the project:
-#            npm run dev
-      inside your terminal.
+         npm run dev
+         
+inside your terminal.
 
 -------------------------------------------------------------------------------------------------
 #                                   React + TypeScript + Vite
