@@ -13,7 +13,8 @@ design implementation, styling and screen responsE
   -----------------------------------------------------------------------------------------------
 
 Clone the project to your desired directories:
-#      git clone https://github.com/SenseiTumelo/ReactTS-Task-1-UI-Challenge.git      
+  
+      git clone https://github.com/SenseiTumelo/ReactTS-Task-1-UI-Challenge.git      
 
 After cloning the project, 
       run: 
